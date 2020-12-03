@@ -78,4 +78,8 @@
   .card__image_sixth {
     background-image: url(./images/food-sixth-tablet.jpg);
   }
+
+  .card__info {
+    padding-left: 23px;
+  }
 }
