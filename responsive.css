@@ -11,4 +11,26 @@
     height: 12px;
     background-size: cover;
   }
+
+  .banner {
+    background-image: url(./images/tablet-banner.jpg);
+    background-size: cover;
+  }
+
+  .banner__container {
+    left: 8px;
+    width: 56.2%;
+  }
+
+  .container__title {
+    margin-top: 8.5%;
+    margin-right: 22px;
+  }
+
+  .container__text {
+    margin: 0 24px 19px 24px;
+  }
+  .container__text_left {
+    margin-top: 8px;
+  }
 }
