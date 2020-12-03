@@ -118,3 +118,16 @@
   color: #626262;
   text-decoration: none;
 }
+
+/*++++++++++++MAIN+++++++++++*/
+
+.main {
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+.main__title {
+  font-size: 22px;
+  color: #1d1d1d;
+  font-weight: normal;
+}
