@@ -228,6 +228,11 @@
   margin-top: 8px;
 }
 
+.col_left__hashtag::before {
+  content: '#';
+  color: green;
+}
+
 .col_left__social {
   display: flex;
   gap: 12px;
