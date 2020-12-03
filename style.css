@@ -131,3 +131,46 @@
   color: #1d1d1d;
   font-weight: normal;
 }
+
+.main__catalog {
+  margin-top: 34px;
+  width: 91.7%;
+  display: flex;
+  flex-flow: wrap;
+  gap: 16px;
+}
+
+.catalog__card {
+  width: 49.15%;
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 33px;
+  border: 1px solid rgba(117, 117, 117, 0.2);
+  border-radius: 2px;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #1d1d1d;
+  font-weight: 500;
+  padding: 19px 0 15px 16px;
+}
+
+.card__title {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.card__price {
+  font-size: 15px;
+}
+
+.card__about {
+  font-size: 13px;
+  color: #626262;
+  margin-bottom: 52px;
+}
+
