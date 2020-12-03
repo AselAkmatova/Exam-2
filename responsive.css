@@ -1,5 +1,14 @@
+/*++++++++++++++++++TABLET+++++++++++++++++++++++*/
+
 @media (min-width: 577px) and (max-width: 769px) {
   .header {
     padding-left: 7px;
+    padding-right: 18px;
+  }
+
+  .header__logo {
+    width: 107px;
+    height: 12px;
+    background-size: cover;
   }
 }
