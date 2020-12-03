@@ -17,6 +17,14 @@
   padding-right: 97px;
 }
 
+.header__logo {
+  display: block;
+  background: url(./images/header-logo.svg) no-repeat;
+  background-size: cover;
+  width: 119.23px;
+  height: 12.31px;
+}
+
 .header__nav {
   display: flex;
   gap: 16px;
