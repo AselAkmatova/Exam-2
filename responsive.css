@@ -33,4 +33,8 @@
   .container__text_left {
     margin-top: 8px;
   }
+
+  .menu {
+    padding-left: 7px;
+  }
 }
