@@ -219,3 +219,26 @@
   gap: 12px;
   margin-top: -7px;
 }
+
+.nav__col_center {
+  margin-left: -57px;
+}
+
+.col__link {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+.footer__copyright {
+  display: flex;
+  gap: 231px;
+  align-items: center;
+  height: 92px;
+}
+
+.copyright__item {
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+}
