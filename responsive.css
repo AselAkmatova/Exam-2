@@ -140,4 +140,85 @@
   .menu {
     display: none;
   }
+
+  .main {
+    margin-left: 2px;
+    margin-top: 115px;
+  }
+
+  .main__title {
+    text-align: center;
+  }
+
+  .main__catalog {
+    width: 99%;
+    margin-top: 58px;
+    position: relative;
+  }
+
+  .main__catalog::before {
+    width: 50px;
+    height: 1px;
+    content: '';
+    position: absolute;
+    left: 133px;
+    top: -43px;
+    background-image: url(./images/line.svg);
+  }
+
+  .catalog__card {
+    width: 100%;
+    height: 102px;
+    margin-bottom: 0px;
+  }
+
+  .card__image {
+    width: 102px;
+    height: 102px;
+  }
+
+  .card__info {
+    padding: 4px 0 15px 4px;
+  }
+
+  .card__title {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 178px;
+  }
+
+  .card__about {
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    height: 769px;
+    margin-top: 41px;
+    padding-left: 8px;
+  }
+
+  .col_left__language {
+    width: 173px;
+  }
+
+  .footer__nav {
+    width: 135%;
+    height: 495px;
+    flex-direction: column;
+    padding: 40px 0;
+  }
+
+  .nav__col_center {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .footer__copyright {
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 32px;
+    align-items: flex-start;
+  }
 }
