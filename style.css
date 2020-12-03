@@ -62,7 +62,8 @@
 .banner {
   width: 100%;
   height: 364px;
-  background-image: url(./images/banner.jpg);
+  background: url(./images/banner.jpg);
+  background-position: 0 53.5%;
   background-size: cover;
   position: relative;
 }
@@ -161,30 +162,6 @@
 .card__image {
   width: 170px;
   height: 160px;
-}
-
-.card__image_first {
-  background-image: url(./images/food-first.jpg);
-}
-
-.card__image_second {
-  background-image: url(./images/food-second.jpg);
-}
-
-.card__image_third {
-  background-image: url(./images/food-third.jpg);
-}
-
-.card__image_fourth {
-  background-image: url(./images/food-fourth.jpg);
-}
-
-.card__image_fifth {
-  background-image: url(./images/food-fifth.jpg);
-}
-
-.card__image_sixth {
-  background-image: url(./images/food-sixth.jpg);
 }
 
 .card__info {
