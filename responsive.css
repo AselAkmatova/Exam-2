@@ -99,4 +99,13 @@
   .nav__col_center {
     margin-left: -7px;
   }
+
+  .footer__copyright {
+    gap: 106px;
+    height: 96px;
+  }
+
+  .copyright__item_terms {
+    margin-left: 114px;
+  }
 }
