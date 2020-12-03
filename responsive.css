@@ -41,4 +41,13 @@
   .main {
     margin-left: 8px;
   }
+
+  .main__catalog {
+    width: 99%;
+  }
+
+  .catalog__card {
+    width: 100%;
+    margin-bottom: 16.5px;
+  }
 }
