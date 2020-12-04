@@ -242,12 +242,34 @@
   gap: 24px;
 }
 
-.col_left__language {
+.language {
+  width: 227px;
+  height: 40px;
+  margin-top: -7px;
+  position: relative;
+}
+
+.language-select {
   width: 227px;
   height: 40px;
   background: #3b3b3b;
   border-radius: 2px;
-  margin-top: -7px;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding-left: 42px;
+  padding-bottom: 4px;
+}
+
+.language::before {
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/lang-icon.svg);
+  background-size: contain;
+  content: '';
+  position: absolute;
+  left: 16px;
+  top: 11px;
 }
 
 .col_left__hashtag {

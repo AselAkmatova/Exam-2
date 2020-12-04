@@ -63,7 +63,8 @@
     padding-left: 8px;
   }
 
-  .col_left__language {
+  .language,
+  .language-select {
     width: 176px;
   }
 
@@ -203,7 +204,8 @@
     padding-left: 8px;
   }
 
-  .col_left__language {
+  .language,
+  .language-select {
     width: 173px;
   }
 
