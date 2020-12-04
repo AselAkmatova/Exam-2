@@ -27,9 +27,9 @@
   }
 
   .container__text {
-    margin: 0 24px 19px 24px;
+    margin: 0 48px 38px;
   }
-  .container__text_left {
+  .text__left {
     margin-top: 8px;
   }
 
@@ -64,7 +64,7 @@
   }
 
   .language,
-  .language-select {
+  .language__select {
     width: 176px;
   }
 
@@ -134,8 +134,12 @@
 
   .container__text {
     flex-direction: column;
-    margin: 0 auto 11px;
-    gap: 4px;
+    margin: 0 auto 23px;
+    gap: 15px;
+  }
+
+  .text__right {
+    margin-left: 14px;
   }
 
   .menu {
@@ -205,8 +209,12 @@
   }
 
   .language,
-  .language-select {
+  .language__select {
     width: 173px;
+  }
+
+  .language__select {
+    padding-bottom: 0;
   }
 
   .footer__nav {
